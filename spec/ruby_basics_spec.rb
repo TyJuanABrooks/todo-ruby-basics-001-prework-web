@@ -1,3 +1,4 @@
+
 require 'spec_helper'
 require_relative '../lib/ruby_basics.rb'
 
@@ -39,7 +40,6 @@ describe "ruby" do
 
     it 'should raise an error with one argument' do
       greeting = "Hi there, "
-
       expect{ greeting(greeting)}.to raise_error
     end
   end
